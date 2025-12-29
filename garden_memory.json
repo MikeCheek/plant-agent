@@ -1,0 +1,9 @@
+{
+    "plants": [
+        "sansevieria",
+        "Ficus elastica"
+    ],
+    "orchid": {
+        "moisture_level": "moist"
+    }
+}

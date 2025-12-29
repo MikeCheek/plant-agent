@@ -1,0 +1,9 @@
+.gradio/
+Include/
+Lib/
+Scripts/
+*__pycache__/
+*.log
+.env
+*.gguf
+pyvenv.cfg

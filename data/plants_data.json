@@ -1,0 +1,502 @@
+[
+  {
+    "name": "African Violet (Saintpaulia ionantha)",
+    "description": "Small, flowering houseplant with fuzzy, round leaves that grow in a rosette pattern. Flowers are often purple, pink, or white, blooming year-round.",
+    "imagePath": "plants/african-violet.png",
+    "waterFrequency": "Weekly (Bottom-watering preferred)",
+    "soilType": "African Violet Mix (peat, perlite, vermiculite)",
+    "idealPeriod": "Year-Round",
+    "exposition": "Bright, indirect light",
+    "curiosity": "These are sensitive to cold water and can develop brown spots on their leaves if watered from above."
+  },
+  {
+    "name": "Alocasia (Elephant Ear)",
+    "description": "Tropical plant known for its dramatic, large, often arrow-shaped leaves with prominent veining. Needs high humidity.",
+    "imagePath": "plants/alocasia.png",
+    "waterFrequency": "Keep consistently moist (check every few days)",
+    "soilType": "Peat-based, well-draining soil",
+    "idealPeriod": "Spring and Summer (Active growth)",
+    "exposition": "Bright, indirect light",
+    "curiosity": "Some Alocasia varieties go dormant in winter and may lose all their leaves, but they will regrow in spring."
+  },
+  {
+    "name": "Aloe Vera",
+    "description": "Succulent plant species known for its medicinal properties. Features thick, fleshy, spiky leaves that contain a clear gel.",
+    "imagePath": "plants/aloe-vera.png",
+    "waterFrequency": "Monthly (Allow soil to dry completely)",
+    "soilType": "Cactus or Succulent potting mix (sandy)",
+    "idealPeriod": "Spring to Autumn (Growth period)",
+    "exposition": "Full sun or bright, indirect light",
+    "curiosity": "The clear gel inside the leaves is widely used to soothe burns and cuts."
+  },
+  {
+    "name": "Anthurium (Anthurium andraeanum)",
+    "description": "Tropical plant known for its colorful, waxy, heart-shaped 'flowers' (spathes) and prominent central spikes (spadix).",
+    "imagePath": "plants/anthurium.png",
+    "waterFrequency": "Weekly (Allow topsoil to dry slightly)",
+    "soilType": "Coarse, well-draining soil (e.g., orchid mix)",
+    "idealPeriod": "Year-Round (With consistent warmth)",
+    "exposition": "Bright, indirect light",
+    "curiosity": "The colorful part is not a flower; it's a modified leaf called a spathe, which protects the true flower spike."
+  },
+  {
+    "name": "Areca Palm (Dypsis lutescens)",
+    "description": "A graceful indoor palm with arching, feathery fronds. A popular air-purifying plant that adds a tropical feel.",
+    "imagePath": "plants/areca-palm.png",
+    "waterFrequency": "Weekly (Keep soil lightly moist in summer)",
+    "soilType": "Standard potting mix with added sand or peat",
+    "idealPeriod": "Spring and Summer",
+    "exposition": "Bright, indirect light (Avoid direct sun)",
+    "curiosity": "They are sometimes called 'Butterfly Palms' because their fronds curve upward, resembling butterfly wings."
+  },
+  {
+    "name": "Asparagus Fern (Asparagus setaceus)",
+    "description": "A delicate-looking plant with light, feathery, needle-like foliage. It is technically not a fern, but a member of the lily family.",
+    "imagePath": "plants/asparagus-fern.png",
+    "waterFrequency": "Weekly (Water thoroughly when soil is dry to the touch)",
+    "soilType": "Rich, well-draining potting mix",
+    "idealPeriod": "Spring to Autumn",
+    "exposition": "Partial shade or filtered light",
+    "curiosity": "Despite its soft appearance, the stems can have small, sharp spines. Keep away from pets and children."
+  },
+  {
+    "name": "Begonia (Begonia spp.)",
+    "description": "Large and diverse group of plants known for their decorative leaves and colorful flowers.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Light, well-draining potting mix",
+    "idealPeriod": "Spring to Autumn",
+    "exposition": "Bright, indirect light",
+    "curiosity": "Some begonias are grown purely for their leaves rather than flowers."
+  },
+  {
+    "name": "Bird of Paradise (Strelitzia reginae)",
+    "description": "Striking tropical plant with large, banana-like leaves and exotic flowers resembling birds in flight.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Rich, well-draining soil",
+    "idealPeriod": "Spring and Summer",
+    "exposition": "Bright light, including some direct sun",
+    "curiosity": "It can take several years before a Bird of Paradise blooms indoors."
+  },
+  {
+    "name": "Birds Nest Fern (Asplenium nidus)",
+    "description": "Fern with broad, wavy fronds that grow in a rosette shape, resembling a bird’s nest.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Peat-rich, well-draining mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Medium to bright, indirect light",
+    "curiosity": "Water should be applied to the soil, not the center rosette."
+  },
+  {
+    "name": "Boston Fern (Nephrolepis exaltata)",
+    "description": "Classic fern with arching fronds and dense foliage, commonly used as a hanging plant.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "2–3 times per week",
+    "soilType": "Rich, moist potting mix",
+    "idealPeriod": "Spring to Summer",
+    "exposition": "Indirect light or partial shade",
+    "curiosity": "Boston ferns are excellent natural humidifiers."
+  },
+  {
+    "name": "Calathea",
+    "description": "Decorative foliage plant known for patterned leaves that move in response to light.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly (Use distilled water)",
+    "soilType": "Well-draining, peat-based soil",
+    "idealPeriod": "Year-Round",
+    "exposition": "Medium to bright, indirect light",
+    "curiosity": "Calatheas are nicknamed 'prayer plants' because their leaves fold at night."
+  },
+  {
+    "name": "Cast Iron Plant (Aspidistra elatior)",
+    "description": "Extremely hardy plant with long, dark green leaves that tolerates neglect and low light.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Bi-weekly",
+    "soilType": "Standard potting mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Low to medium light",
+    "curiosity": "It earned its name because it is nearly impossible to kill."
+  },
+  {
+    "name": "Chinese Evergreen (Aglaonema)",
+    "description": "Low-maintenance houseplant with patterned leaves, ideal for beginners.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Bi-weekly",
+    "soilType": "Loose, well-draining mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Low to medium, indirect light",
+    "curiosity": "Aglaonema is known for tolerating low-light environments very well."
+  },
+  {
+    "name": "Chinese Money Plant (Pilea peperomioides)",
+    "description": "Compact plant with round, coin-shaped leaves on long stems.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Well-draining potting soil",
+    "idealPeriod": "Spring and Summer",
+    "exposition": "Bright, indirect light",
+    "curiosity": "It produces many baby plants that can be easily propagated."
+  },
+  {
+    "name": "Christmas Cactus (Schlumbergera bridgesii)",
+    "description": "Succulent-like cactus that blooms with colorful flowers during winter.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly during growth",
+    "soilType": "Well-draining cactus mix",
+    "idealPeriod": "Autumn and Winter",
+    "exposition": "Bright, indirect light",
+    "curiosity": "Flowering is triggered by shorter daylight hours."
+  },
+  {
+    "name": "Chrysanthemum",
+    "description": "Flowering plants famous for their bright, multi-petaled blooms often seen in autumn.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Bi-weekly (Keep soil moist)",
+    "soilType": "Rich, well-draining soil",
+    "idealPeriod": "Autumn",
+    "exposition": "Full sun",
+    "curiosity": "In many cultures, these represent longevity and rebirth."
+  },
+  {
+    "name": "Ctenanthe",
+    "description": "Close relative of the Calathea, featuring striking variegated foliage.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Peat-based potting mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Partial shade",
+    "curiosity": "Like prayer plants, their leaves rise and fall with the light."
+  },
+  {
+    "name": "Daffodils (Narcissus spp.)",
+    "description": "Spring-flowering perennial bulbs with bright yellow or white trumpet-shaped flowers.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly (During growth)",
+    "soilType": "Well-draining loamy soil",
+    "idealPeriod": "Spring",
+    "exposition": "Full sun to partial shade",
+    "curiosity": "Daffodil bulbs contain toxic crystals to prevent animals from eating them."
+  },
+  {
+    "name": "Dracaena",
+    "description": "Popular indoor plant with long, narrow leaves often edged in red or yellow.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Bi-weekly",
+    "soilType": "Loose, well-draining soil",
+    "idealPeriod": "Year-Round",
+    "exposition": "Medium to bright, indirect light",
+    "curiosity": "Sensitive to fluoride found in tap water."
+  },
+  {
+    "name": "Dumb Cane (Dieffenbachia spp.)",
+    "description": "Large, showy houseplant with broad, variegated leaves of green, cream, and white.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Standard well-draining potting soil",
+    "idealPeriod": "Year-Round",
+    "exposition": "Indirect light",
+    "curiosity": "Its sap is toxic and can cause temporary loss of speech if ingested, hence the name."
+  },
+  {
+    "name": "English Ivy (Hedera helix)",
+    "description": "Evergreen climbing vine with classic lobed leaves, often used for ground cover or hanging baskets.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Standard potting mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Medium light to bright indirect light",
+    "curiosity": "It uses small 'rootlets' to cling to walls and trees."
+  },
+  {
+    "name": "Hyacinth (Hyacinthus orientalis)",
+    "description": "Highly fragrant spring-blooming bulbs with dense clusters of bell-shaped flowers.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Loose, well-draining soil",
+    "idealPeriod": "Spring",
+    "exposition": "Full sun",
+    "curiosity": "The scent of a single hyacinth can fill an entire room."
+  },
+  {
+    "name": "Iron Cross Begonia (Begonia masoniana)",
+    "description": "Distinctive begonia with textured green leaves marked by a dark 'cross' in the center.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Peat-based mix",
+    "idealPeriod": "Spring/Summer",
+    "exposition": "Bright indirect light",
+    "curiosity": "The 'Iron Cross' name comes from the pattern's resemblance to the German medal."
+  },
+  {
+    "name": "Jade Plant (Crassula ovata)",
+    "description": "Succulent with thick, woody stems and glossy oval leaves.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Monthly",
+    "soilType": "Cactus or succulent mix",
+    "idealPeriod": "Spring to Autumn",
+    "exposition": "Bright light or full sun",
+    "curiosity": "Often considered a symbol of luck and prosperity."
+  },
+  {
+    "name": "Kalanchoe",
+    "description": "Popular succulent with clusters of small, long-lasting bright flowers.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Bi-weekly",
+    "soilType": "Well-draining cactus mix",
+    "idealPeriod": "Winter/Spring",
+    "exposition": "Bright sunny spots",
+    "curiosity": "They are 'short day' plants, needing long periods of darkness to rebloom."
+  },
+  {
+    "name": "Lilium (Hemerocallis)",
+    "description": "Large, showy flowering plants known as Daylilies; each bloom usually lasts only one day.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Rich, moist soil",
+    "idealPeriod": "Summer",
+    "exposition": "Full sun",
+    "curiosity": "Despite the name, Daylilies are not 'true' lilies (genus Lilium)."
+  },
+  {
+    "name": "Lily of the Valley (Convallaria majalis)",
+    "description": "Sweetly scented woodland plant with small white, bell-shaped flowers.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Moist, rich soil",
+    "idealPeriod": "Spring",
+    "exposition": "Partial to full shade",
+    "curiosity": "All parts of the plant are highly poisonous if ingested."
+  },
+  {
+    "name": "Money Tree (Pachira aquatica)",
+    "description": "Tree-like plant with braided trunk and palmate leaves.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Well-draining potting mix",
+    "idealPeriod": "Spring and Summer",
+    "exposition": "Bright, indirect light",
+    "curiosity": "Commonly associated with Feng Shui and good fortune."
+  },
+  {
+    "name": "Monstera Deliciosa (Swiss Cheese Plant)",
+    "description": "Large, iconic houseplant known for its glossy, heart-shaped leaves that develop natural holes (fenestrations).",
+    "imagePath": "plants/monstera.png",
+    "waterFrequency": "Weekly (Allow soil to dry between waterings)",
+    "soilType": "Chunky, airy mix (bark, perlite, and soil)",
+    "idealPeriod": "Spring and Summer",
+    "exposition": "Bright, indirect light",
+    "curiosity": "The 'holes' in the leaves help the plant withstand winds and allow light to reach lower leaves."
+  },
+  {
+    "name": "Orchid",
+    "description": "Elegant flowering plant with long-lasting blooms and aerial roots.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly (Soak and drain)",
+    "soilType": "Orchid bark mix",
+    "idealPeriod": "Varies by species",
+    "exposition": "Bright, indirect light",
+    "curiosity": "Orchids can bloom for several months with proper care."
+  },
+  {
+    "name": "Parlor Palm (Chamaedorea elegans)",
+    "description": "Small, slow-growing palm with delicate fronds, very popular since Victorian times.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Standard potting mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Low to medium light",
+    "curiosity": "One of the best palms for low-light indoor conditions."
+  },
+  {
+    "name": "Peace Lily",
+    "description": "Graceful plant with dark green leaves and white spathes.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Moist, well-draining soil",
+    "idealPeriod": "Year-Round",
+    "exposition": "Low to bright, indirect light",
+    "curiosity": "The plant visibly droops when it needs water."
+  },
+  {
+    "name": "Peperomia",
+    "description": "A large genus of small, slow-growing plants with thick, succulent-like leaves.",
+    "imagePath": "plants/peperomia.png",
+    "waterFrequency": "Bi-Weekly",
+    "soilType": "Standard potting mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Medium to bright, indirect light",
+    "curiosity": "Related to the true black pepper plant."
+  },
+  {
+    "name": "Poinsettia (Euphorbia pulcherrima)",
+    "description": "Famous holiday plant known for its bright red and green foliage.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly (When soil feels dry)",
+    "soilType": "Well-draining potting soil",
+    "idealPeriod": "Winter",
+    "exposition": "Bright indirect light",
+    "curiosity": "The 'flowers' are actually modified leaves called bracts."
+  },
+  {
+    "name": "Polka Dot Plant (Hypoestes phyllostachya)",
+    "description": "Small houseplant with leaves 'spattered' with pink, white, or red spots.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly (Keep moist)",
+    "soilType": "Rich, well-draining soil",
+    "idealPeriod": "Spring/Summer",
+    "exposition": "Bright indirect light",
+    "curiosity": "If the light is too low, the plant will lose its spotty colors."
+  },
+  {
+    "name": "Ponytail Palm (Beaucarnea recurvata)",
+    "description": "Unique plant with a bulbous trunk and long, hair-like leaves.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Bi-weekly to Monthly",
+    "soilType": "Cactus/Succulent mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Bright light",
+    "curiosity": "Despite its appearance, it is actually a succulent, not a true palm."
+  },
+  {
+    "name": "Pothos (Ivy Arum)",
+    "description": "Versatile trailing vine with heart-shaped leaves, extremely easy to grow.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Standard potting mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Low to bright indirect light",
+    "curiosity": "Often called 'Devil's Ivy' because it is so hard to kill."
+  },
+  {
+    "name": "Prayer Plant (Maranta leuconeura)",
+    "description": "Low-growing plant with striking patterned leaves that fold up at night.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Peat-based soil",
+    "idealPeriod": "Spring/Summer",
+    "exposition": "Medium indirect light",
+    "curiosity": "The folding movement is called nyctinasty."
+  },
+  {
+    "name": "Rattlesnake Plant (Calathea lancifolia)",
+    "description": "Features long, spotted leaves with deep purple undersides.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Peat mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Indirect light",
+    "curiosity": "The markings resemble a rattlesnake's skin."
+  },
+  {
+    "name": "Rubber Plant (Ficus elastica)",
+    "description": "Tree-like plant with large, thick, glossy leaves that can grow quite large.",
+    "imagePath": "plants/fig.png",
+    "waterFrequency": "Bi-weekly",
+    "soilType": "Well-draining soil",
+    "idealPeriod": "Spring/Summer",
+    "exposition": "Bright indirect light",
+    "curiosity": "Its milky sap was once used to produce low-quality rubber."
+  },
+  {
+    "name": "Sago Palm (Cycas revoluta)",
+    "description": "Ancient plant with stiff, feathery fronds and a textured trunk.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Bi-weekly",
+    "soilType": "Well-draining sandy soil",
+    "idealPeriod": "Year-Round",
+    "exposition": "Bright indirect light",
+    "curiosity": "It is a cycad, an ancient group of plants that predates dinosaurs."
+  },
+  {
+    "name": "Schefflera",
+    "description": "Commonly called the Umbrella Tree due to the arrangement of its leaves.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Rich, well-draining soil",
+    "idealPeriod": "Spring to Autumn",
+    "exposition": "Bright indirect light",
+    "curiosity": "If it gets too leggy, it responds well to heavy pruning."
+  },
+  {
+    "name": "Snake Plant (Sansevieria)",
+    "description": "Upright plant with stiff, sword-shaped leaves and extreme drought tolerance.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Monthly",
+    "soilType": "Cactus or well-draining mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Low to bright light",
+    "curiosity": "One of the best plants for improving indoor air quality."
+  },
+  {
+    "name": "Spider Plant",
+    "description": "Resilient houseplant known for its arching leaves and small plantlets.",
+    "imagePath": "plants/spider-plant.png",
+    "waterFrequency": "Weekly",
+    "soilType": "General purpose mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Bright to medium, indirect light",
+    "curiosity": "The baby plantlets (spiderettes) are easily propagated."
+  },
+  {
+    "name": "Succulent (General)",
+    "description": "A general term for plants with thick, fleshy parts used to retain water.",
+    "imagePath": "plants/succulent.png",
+    "waterFrequency": "Monthly",
+    "soilType": "Cactus or Succulent mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Full sun or very bright light",
+    "curiosity": "Overwatering is the number one killer of succulents."
+  },
+  {
+    "name": "Tradescantia",
+    "description": "Fast-growing trailing plant often featuring purple or silver striped leaves.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Standard potting mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Bright indirect light",
+    "curiosity": "Very easy to grow from cuttings in just water."
+  },
+  {
+    "name": "Tulip",
+    "description": "Spring bulbs with large, bell-shaped flowers in almost every color imaginable.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Weekly",
+    "soilType": "Sandy, well-draining soil",
+    "idealPeriod": "Spring",
+    "exposition": "Full sun",
+    "curiosity": "Tulips will continue to grow in height even after being cut and placed in a vase."
+  },
+  {
+    "name": "Venus Flytrap",
+    "description": "Carnivorous plant that catches insects with specialized 'trap' leaves.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Keep wet (Use distilled water only)",
+    "soilType": "Peat moss and perlite (No fertilizer)",
+    "idealPeriod": "Summer",
+    "exposition": "Full sun",
+    "curiosity": "The trap only snaps shut when tiny hairs are triggered twice."
+  },
+  {
+    "name": "Yucca",
+    "description": "Tough, drought-tolerant plant with sword-like leaves and a woody trunk.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Bi-weekly",
+    "soilType": "Silt or sandy well-draining soil",
+    "idealPeriod": "Year-Round",
+    "exposition": "Full sun",
+    "curiosity": "In the wild, they are pollinated exclusively by the Yucca moth."
+  },
+  {
+    "name": "ZZ Plant (Zamioculcas zamiifolia)",
+    "description": "Slow-growing plant with glossy leaves and high drought resistance.",
+    "imagePath": "plants/no-photo.png",
+    "waterFrequency": "Monthly",
+    "soilType": "Well-draining potting mix",
+    "idealPeriod": "Year-Round",
+    "exposition": "Low to bright, indirect light",
+    "curiosity": "Stores water in underground rhizomes."
+  }
+]

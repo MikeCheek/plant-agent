@@ -1,0 +1,43 @@
+services:
+  # The GreenThumb Agent API
+  greenthumb-api:
+    build: .
+    container_name: greenthumb-api
+    volumes:
+      - ./data:/app/data # Persistent memory volume
+      - ./llm:/app/llm # Model access
+    environment:
+      - MODEL_PATH=/app/llm/qwen2.5-7b-instruct-q2_k.gguf
+      - API_KEY=${API_KEY}
+    restart: always
+    # No ports exposed! The tunnel handles the connection.
+    # --- THIS FOR CUDA ---
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 40s # Check every x seconds
+      timeout: 20s # Give up on the check after x seconds
+      retries: 10 # Try 10 times (gives the model ~100 seconds to load)
+      start_period: 30s # Don't even start checking for 20 seconds
+
+  ngrok-tunnel:
+    image: ngrok/ngrok:latest
+    container_name: ngrok-tunnel
+    restart: always
+    environment:
+      - NGROK_AUTHTOKEN=${NGROK_AUTHTOKEN}
+    # Command to tunnel to the 'greenthumb-api' service on port 8000
+    command:
+      - "http"
+      - "greenthumb-api:8000"
+    ports:
+      - "4040:4040" # Optional: Local dashboard to see requests at http://localhost:4040
+    depends_on:
+      greenthumb-api:
+        condition: service_healthy

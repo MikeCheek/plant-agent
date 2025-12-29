@@ -1,0 +1,10 @@
+ddgs
+langchain_community
+langchain_core
+markdownify
+requests
+smolagents
+gradio
+rank_bm25
+llama-cpp-python
+fastapi
