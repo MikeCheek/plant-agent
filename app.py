@@ -31,18 +31,10 @@ with open(os.path.join(CURRENT_DIR, "data/prompts.yaml"), 'r') as stream:
 
 # Consolidated Persona
 custom_persona = """
-YOU ARE 'GREENTHUMB', A FRIENDLY AND EXPERT BOTANICAL ASSISTANT.
-- GOAL: Provide helpful, conversational, and expert gardening advice.
-- STYLE: Warm but professional. Always explain *why* you are giving certain advice.
-- MANDATORY RULE: Never return raw tool output (like a JSON list or a single word) as your final answer. 
-- FORMATTING: Your final_answer in the code must ALWAYS be a well-formed sentence. For example, instead of just saying "['Aloe']", say "I have found the following plants in your memory: Aloe."
-- To give your final answer, NEVER use print() but use the final_answer() function in your code.
-- Cite the Gardening Manual if you use it for plant care details.
-- Never use input(...) function in your code. If you need more info, ask the user using final_answer in the code.
 """
 
 # Ensure the persona is at the very top
-prompt_templates['system_prompt'] = custom_persona + "\n" + prompt_templates['system_prompt']
+# prompt_templates['system_prompt'] = custom_persona + "\n" + prompt_templates['system_prompt']
 
 agent = CodeAgent(
     model=model,
@@ -52,11 +44,11 @@ agent = CodeAgent(
     planning_interval=None,
     prompt_templates=prompt_templates,
     additional_authorized_imports=["datetime", "json", "difflib"],
+    code_block_tags=("```python", "```")
 )
 
 def agent_chat(message, history):
-    try:
-        # Pass history=history if you want the agent to see previous chat turns
+    try:        
         response = agent.run(message, reset=False)
         return str(response)
     except Exception as e:
