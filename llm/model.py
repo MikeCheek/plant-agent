@@ -12,10 +12,16 @@ model_path = os.path.join(CURRENT_DIR, path_prefix, "qwen2.5-7b-instruct-q2_k.gg
 
 llm = Llama(
     model_path=model_path, 
-    n_ctx=8192, 
-    n_gpu_layers=-1,
-    logits_all=True, 
-    n_threads=os.cpu_count(),
+    n_ctx=4096,           # 1. Reduced context = much less RAM
+    n_gpu_layers=-1,      # Offload everything to GPU if available
+    n_batch=512,          # Standard batch size for prompt processing
+    n_threads=max(1, os.cpu_count() // 2), # 2. Use physical cores only
+    use_mmap=True,        # 3. Use memory mapping to load faster
+    logits_all=False,     # 4. Set to False unless you're doing logit analysis
+    verbose=False,         # 5. Disable logs to keep console clean
+    n_keep=200,
+    flash_attn=True,      # Add this
+    f16_kv=True           # Add this
 )
 
 class LocalGGUFModel:
