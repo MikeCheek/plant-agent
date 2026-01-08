@@ -1,15 +1,3 @@
----
-title: Plant Agent
-emoji: 🏆
-colorFrom: green
-colorTo: purple
-sdk: gradio
-sdk_version: 6.2.0
-app_file: app.py
-pinned: false
-tags:
-- smolagents
-- agent
----
+# AI Agent for plant care suggestions
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+## This AI Agent is part of the [Plant Guardian project](https://github.com/MikeCheek/plant_guardian)
